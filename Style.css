@@ -1,5 +1,5 @@
 body
-{   
+{
     color: white;
     background:
     linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
@@ -41,7 +41,7 @@ width: 100%;
     float: left;
     text-align: center;
     width: 25%;
-    
+
 }
 .content
 {
@@ -49,9 +49,37 @@ width: 100%;
   margin-left: auto;
   margin-right: auto;
   width: 80%;
-  background-color: #595959; 
-  clear: both;  
+  background-color: #595959;
+  clear: both;
   padding-top: 20px;
   text-align: center;
-  
+}
+.footer
+{
+  width: 100%;
+}
+.socialfb
+{
+  float: left;
+  background-color: #3b5998;
+  width: 25%;
+}
+.socialtw
+{
+  float: left;
+  width: 25%;
+  background-color: #008ae6
+}
+.socialgp
+{
+  float: left;
+  width: 25%;
+  background-color: #cc2900;
+
+}
+.socialyt
+{
+  float: left;
+  width: 25%;
+  background-color: e52d27;
 }
