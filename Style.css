@@ -1,7 +1,7 @@
 body
 {
     color: white;
-    background:
+/*    background:
     linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
     linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px,
     linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px,
@@ -9,10 +9,12 @@ body
     linear-gradient(90deg, #1b1b1b 10px, transparent 10px),
     linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
     background-color: #131313;
-    background-size: 20px 20px;
+    background-size: 20px 20px;*/
     font-family: 'Lato', sans-serif;
     margin: 0 !important;
-    background-color: #595959;
+    background-color: #f2f2f2;
+    color: black;
+    /*background-image: url("bg#0.png");*/
 }
 .wrapper
 {
@@ -20,20 +22,20 @@ width: 100%;
 }
 .logo
 {
-    padding-top: 20px;
+    color: #008ae6;
     text-align: center;
+    min-height: 4%;
 }
 
 .menu
 {
+    min-height: 4%;
     float: left;
-    padding-bottom: 5px;
-    padding-top: 5px;
     margin-right: auto;
     margin-left: auto;
     margin-top: auto;
     width: 100%;
-    background-color: #FF4500;
+    background-color: #008ae6;
     text-align: center;
 }
 .submenu
@@ -41,22 +43,27 @@ width: 100%;
     float: left;
     text-align: center;
     width: 25%;
+    padding-top: 10px;
+    padding-bottom: 10px;
 
 }
 .content
 {
-  color: white;
+  min-height: 86%;
+  color: black;
   margin-left: auto;
   margin-right: auto;
   width: 80%;
-  background-color: #595959;
+  background-color: #e6e6e6;
   clear: both;
   padding-top: 20px;
   text-align: center;
 }
 .footer
 {
-  float: left;
+  min-height: 4%;
+  position:absolute;
+  bottom:0;
   width: 100%;
 }
 .socialfb
@@ -64,24 +71,24 @@ width: 100%;
   float: left;
   background-color: #3b5998;
   width: 25%;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 .socialtw
 {
   float: left;
   width: 25%;
   background-color: #008ae6;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 .socialgp
 {
   float: left;
   width: 25%;
   background-color: #cc2900;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 
 }
 .socialyt
@@ -89,6 +96,35 @@ width: 100%;
   float: left;
   width: 25%;
   background-color: e52d27;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+a:link
+{
+  color: #ffffff;
+  text-decoration: none;
+}
+a:hover
+{
+  color: #ffffff;
+  text-decoration: none;
+}
+a:visited
+{
+  color: #ffffff
+}
+.submenu:hover
+{
+  background-color: #0099ff;
+}
+.socials
+{
+  text-align: center;
+  color: #ffffff;
+}
+.ft
+{
+  text-align: center;
+  width: 100%;
+  background-color: #e6e6e6;
 }
