@@ -56,6 +56,7 @@ width: 100%;
 }
 .footer
 {
+  float: left;
   width: 100%;
 }
 .socialfb
@@ -63,18 +64,23 @@ width: 100%;
   float: left;
   background-color: #3b5998;
   width: 25%;
+  padding-top: 5px;
 }
 .socialtw
 {
   float: left;
   width: 25%;
-  background-color: #008ae6
+  background-color: #008ae6;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 .socialgp
 {
   float: left;
   width: 25%;
   background-color: #cc2900;
+  padding-top: 5px;
+  padding-bottom: 5px;
 
 }
 .socialyt
@@ -82,4 +88,6 @@ width: 100%;
   float: left;
   width: 25%;
   background-color: e52d27;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
